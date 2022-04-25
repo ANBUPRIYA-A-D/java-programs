@@ -7,6 +7,8 @@ tmp = a[t];
 a[t]=a[a.length-t-1];
 a[a.length-t-1]=tmp;
 }
-System.out.println(tmp);
+for(int i=0;i<a.length;i++) {
+System.out.println(a[i]);
+}
 }
 }
